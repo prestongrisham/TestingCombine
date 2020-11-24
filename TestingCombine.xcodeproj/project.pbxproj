@@ -11,6 +11,7 @@
 		A97D95FB256D40FC0033D472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D95FA256D40FC0033D472 /* ContentView.swift */; };
 		A97D95FD256D40FD0033D472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97D95FC256D40FD0033D472 /* Assets.xcassets */; };
 		A97D9600256D40FD0033D472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97D95FF256D40FD0033D472 /* Preview Assets.xcassets */; };
+		A97D960A256D465E0033D472 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D9609256D465E0033D472 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A97D95FC256D40FD0033D472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97D95FF256D40FD0033D472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A97D9601256D40FD0033D472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97D9609256D465E0033D472 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		A97D95F7256D40FC0033D472 /* TestingCombine */ = {
 			isa = PBXGroup;
 			children = (
+				A97D9608256D46500033D472 /* ViewModels */,
 				A97D95F8256D40FC0033D472 /* TestingCombineApp.swift */,
 				A97D95FA256D40FC0033D472 /* ContentView.swift */,
 				A97D95FC256D40FD0033D472 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				A97D95FF256D40FD0033D472 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A97D9608256D46500033D472 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A97D9609256D465E0033D472 /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97D95FB256D40FC0033D472 /* ContentView.swift in Sources */,
+				A97D960A256D465E0033D472 /* ViewModel.swift in Sources */,
 				A97D95F9256D40FC0033D472 /* TestingCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
